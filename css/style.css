@@ -17,11 +17,18 @@ h1 {
     vertical-align: middle;
 }
 
+button {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 8px 15px;
+}
+
+
+/* Header*/
 header {
     background-color: white;
 }
 
-/* Utilities */
 #logo {
     height: 70px;
     margin: 10px auto;
@@ -29,6 +36,34 @@ header {
     vertical-align: middle;
 }
 
+/* Utilities */
 .font {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: white;
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.task {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.section {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px
+}
+
+.separate {
+    border: 2px solid #F6F8F9;
 }
